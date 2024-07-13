@@ -7,11 +7,19 @@ ul {
 .profile {
   border: 2px solid black;
   border-radius: 20px;
+  margin: 0 auto;
+  max-width: 400px;
+  overflow: hidden;
 }
 
 .profile__avatar {
-  padding-top: 20px;
-  width: 300px;
+  margin-top: 20px;
+  background-color: cadetblue;
+  /* width: 300px; */
+  width: 200px; /* Ваша потрібна ширина */
+  height: 200px; /* Ваша потрібна висота */
+  border-radius: 50%; /* Встановлюємо радіус кута 50% для створення круга */
+  object-fit: cover; /* Забезпечуємо, щоб картинка зберігала пропорції і вирівнювалася */
 }
 
 .profile__stats {
@@ -20,6 +28,7 @@ ul {
 
   /* gap: 20px; */
   border-top: 2px solid black;
+  background: grey;
 }
 
 .profile__stats li {
