@@ -15,11 +15,11 @@ ul {
 .profile__avatar {
   margin-top: 20px;
   background-color: cadetblue;
-  /* width: 300px; */
-  width: 200px; /* Ваша потрібна ширина */
-  height: 200px; /* Ваша потрібна висота */
-  border-radius: 50%; /* Встановлюємо радіус кута 50% для створення круга */
-  object-fit: cover; /* Забезпечуємо, щоб картинка зберігала пропорції і вирівнювалася */
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .profile__stats {
