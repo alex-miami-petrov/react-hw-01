@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import userData from "./Data/userData.json";
 import Profile from "./components/Profile/profile.jsx";
-import FriendList from "./components/friendList";
+import FriendList from "./components/FriendList/friendList.jsx";
 import friends from "./Data/friends.json";
 import TransactionHistory from "./components/transactionHistory";
 import transactions from "./Data/transactions.json";

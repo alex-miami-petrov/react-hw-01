@@ -1,6 +1,6 @@
 import React from "react";
 
-import FriendListItem from "./friendListItem";
+import FriendListItem from "../FriendListItem/friendListItem";
 
 const FriendList = ({ friends }) => {
   return (
