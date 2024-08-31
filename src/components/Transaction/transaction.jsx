@@ -1,5 +1,5 @@
 import React from "react";
-import "./transactionHistory.css";
+import "./transaction.css";
 
 const Transaction = ({ type, amount, currency }) => {
   return (

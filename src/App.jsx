@@ -6,7 +6,7 @@ import userData from "./Data/userData.json";
 import Profile from "./components/Profile/profile.jsx";
 import FriendList from "./components/FriendList/friendList.jsx";
 import friends from "./Data/friends.json";
-import TransactionHistory from "./components/transactionHistory";
+import TransactionHistory from "./components/TransactionHistory/transactionHistory.jsx";
 import transactions from "./Data/transactions.json";
 
 const App = () => {
