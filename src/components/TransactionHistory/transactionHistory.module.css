@@ -34,16 +34,24 @@ tr:nth-child(even) {
   width: 100%;
 }
 
-.th,
+/* .th,
 .td {
   border: 1px solid black;
   padding: 4px 60px;
   text-align: center;
-}
+} */
 
 .th {
   background-color: darkslategrey;
   color: #fff;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
 }
 
 .trEven {

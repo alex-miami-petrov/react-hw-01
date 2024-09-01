@@ -34,12 +34,16 @@ tr:nth-child(even) {
   width: 100%;
 }
 
-.th,
+/* .th,
 .td {
   border: 1px solid black;
   padding: 4px 60px;
   text-align: center;
-}
+} */
+
+/* tr {
+  border: 1px solid black;
+} */
 
 .th {
   background-color: darkslategrey;
